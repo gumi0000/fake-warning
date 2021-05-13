@@ -17,6 +17,10 @@ $(function(){
 			return;
 		}
 	})
+	
+	$('#alert2').click(function(){
+		play_se();
+	})
 
 	$('.modal').modal({dismissible: false});
 	$('#alert').modal('open');
