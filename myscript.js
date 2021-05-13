@@ -11,7 +11,7 @@ $(function(){
 
 	history.pushState(null, null, null);
 	$(window).on('popstate', function(e){
-		if(!e.orijinalEvent.state){
+		if(!e.orininalEvent.state){
 			play_se();
 			history.pushState(null, null, null);
 			return;
